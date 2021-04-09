@@ -185,10 +185,7 @@ function fetchinfoByLonLat(){
         return response.json();
       })
       .then(function (loc) {
-          console.log(loc);
-        // write query to page so user knows what they are viewing
-        //resultTextEl.textContent
-       
+      
   
        if (!loc.current) {
          console.log('No results found!');
@@ -220,9 +217,7 @@ function fetchinfoByCity(){
         return response.json();
       })
       .then(function (loc) {
-          console.log(loc);
-        // write query to page so user knows what they are viewing
-        //resultTextEl.textContent
+       
        
        if (!loc.current) {
          console.log('No results found!');
