@@ -29,6 +29,8 @@ THEN I am presented with a 5-day forecast that displays the date, an icon repres
 WHEN I click on a city in the search history
 THEN I am again presented with current and future conditions for that city
 
+```
+
 Linl to github repository: 
 https://github.com/marklaham/weatherdash
 
@@ -40,4 +42,4 @@ Screen shot of deployed site:
 
 
 
-![Getting Started](./assets/ScreenshotPortfolio.png) 
+![Getting Started](./assets/images/ScreenshotWeathDash.png) 
