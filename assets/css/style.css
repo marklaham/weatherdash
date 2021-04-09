@@ -32,10 +32,16 @@
     width: max-content;
     padding: 5px;
     background-color: #1b89bc;
+    padding-right: 5px;
   }
 
+  .current-card {
+    justify-content: space-around;
+    padding: 5px;
+  }
 
   #result-content{
+     
     color: #484848;
     font-size: 22px;
     padding: 20px;
@@ -43,12 +49,17 @@
   }
 
   #result-weekly{
-
-    display:flex;
-    flex-flow: ;
+    
+    display: inline-flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
     padding: 15px;
+    width: 80%;
+    
     
   }
+
+  
   
   /**
    * Correct the font size and margin on `h1` elements within `section` and
@@ -170,6 +181,46 @@
    * 1. Change the font styles in all browsers.
    * 2. Remove the margin in Firefox and Safari.
    */
+   
+   .search-list-button {
+    background-color:lightblue;
+    padding: 2px;
+    padding-top: 5px;
+    margin-left: 5%;
+    width: 90%;
+    border-radius: 5px;
+    font-family: inherit;
+    /* 1 */
+    font-size: 100%;
+    /* 1 */
+    line-height: 1.15;
+    /* 1 */
+  
+
+    /* 2 */
+   }
+
+#search-history{
+
+   align-content: center;
+    margin: 0%;
+    padding:5px;
+}
+
+#SearchButton {
+
+}
+#ClearButton {
+
+}
+
+ul{
+
+    padding: 0;
+    padding-top: 5px;
+    list-style-type: none;
+}
+
   button,
   input,
   optgroup,
